@@ -1,0 +1,13 @@
+[package]
+name = "ytproxy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing-subscriber = "0.3.18"
+futures = "0.3.30"
+http-mitm-proxy = "0.7.1"
+rcgen = { version = "0.13.1", features = ["x509-parser"] }
+tokio = "1.38.0"
+tokio-native-tls = "0.3.1"
+argh = "0.1.12"
